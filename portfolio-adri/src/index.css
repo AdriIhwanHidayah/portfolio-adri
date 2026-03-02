@@ -1,77 +1,141 @@
-body {
+/* RESET */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
   font-family: 'Poppins', sans-serif;
   background: #f4f6f9;
   color: #333;
-  scroll-behavior: smooth;
 }
+
+/* ================= NAVBAR ================= */
 
 .navbar {
   position: fixed;
   width: 100%;
   background: #0f172a;
   color: white;
-  padding: 15px 50px;
+  padding: 15px 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  font-size: 16px;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 25px;
+  gap: 15px;
 }
 
 .navbar a {
   color: white;
   text-decoration: none;
+  font-size: 14px;
 }
+
+/* ================= HERO ================= */
 
 .hero {
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to right, #0f172a, #1e3a8a);
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
   text-align: center;
+  padding: 120px 20px 60px;
+  color: white;
 }
 
+.hero-content {
+  max-width: 500px;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hero span {
+  display: block;
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+/* ================= SECTION ================= */
+
 .section {
-  padding: 120px 50px;
-  max-width: 1000px;
+  padding: 80px 20px;
+  max-width: 1100px;
   margin: auto;
 }
 
 .section h2 {
   text-align: center;
   margin-bottom: 40px;
+  font-size: 22px;
   color: #1e3a8a;
 }
 
+/* ================= SKILLS ================= */
+
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+  grid-template-columns: 1fr;
+  gap: 15px;
 }
 
 .skill-card {
   background: white;
-  padding: 20px;
+  padding: 18px;
   text-align: center;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
+
+/* ================= PROJECTS ================= */
 
 .project-card {
   background: white;
-  padding: 25px;
+  padding: 20px;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
+
+.project-card h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #1e3a8a;
+}
+
+.project-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* ================= CONTACT ================= */
 
 .contact {
   text-align: center;
@@ -79,46 +143,55 @@ body {
 
 .contact a {
   display: inline-block;
-  margin: 10px;
-  padding: 10px 20px;
+  margin: 8px;
+  padding: 8px 16px;
   background: #1e3a8a;
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-size: 14px;
 }
 
-.hero {
-  height: 100vh;
-  background: linear-gradient(to right, #0f172a, #1e3a8a);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: white;
+/* ================= TABLET ================= */
+
+@media (min-width: 600px) {
+
+  .navbar {
+    padding: 15px 40px;
+  }
+
+  .hero h2 {
+    font-size: 28px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
 }
 
-.hero-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* ================= DESKTOP ================= */
 
-.profile-img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid white;
-  margin-bottom: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-}
+@media (min-width: 992px) {
 
-.hero h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-}
+  .navbar h1 {
+    font-size: 20px;
+  }
 
-.hero span {
-  opacity: 0.9;
-  margin-top: 10px;
+  .navbar ul {
+    gap: 25px;
+  }
+
+  .hero h2 {
+    font-size: 36px;
+  }
+
+  .skills-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .section {
+    padding: 120px 50px;
+  }
+
 }
