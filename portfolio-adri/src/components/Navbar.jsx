@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <h1>Adri Ihwan Hidayah</h1>
+      <h1>PORTOFOLIO</h1>
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -12,4 +12,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar 

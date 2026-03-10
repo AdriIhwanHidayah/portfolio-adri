@@ -8,7 +8,8 @@ function Skills() {
     "Router-on-a-Stick",
     "RIP v2 Routing",
     "UX Research",
-    "ISO 25010"
+    "ISO 25010",
+    "Figma"
   ]
 
   return (
