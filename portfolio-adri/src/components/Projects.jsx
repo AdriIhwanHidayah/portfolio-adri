@@ -1,38 +1,72 @@
 function Projects() {
   return (
     <section id="projects" className="section">
+
       <h2>Projects</h2>
 
+      {/* TAMUQ */}
       <div className="project-card">
-        <h3>TamuQ – Digital Guest Book</h3>
+        <h3>TamuQ</h3>
         <p>
-          Aplikasi Flutter dengan login admin, filter data,
-          dan export CSV menggunakan Hive database.
+          Aplikasi buku tamu digital berbasis Flutter dengan penyimpanan data
+          menggunakan Hive serta fitur admin untuk melihat riwayat kunjungan.
         </p>
+
+        <a 
+          href="https://github.com/AdriIhwanHidayah/TamuQ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
       </div>
 
+
+      {/* SISTEM MONITORING ANAK */}
       <div className="project-card">
         <h3>Sistem Monitoring Kesehatan Anak</h3>
         <p>
-          Perancangan sistem dengan dokumentasi SRS lengkap
-          serta fitur role management dan notifikasi otomatis.
+          Sistem informasi untuk memantau kesehatan anak yang mencakup
+          pencatatan data vaksinasi, notifikasi otomatis, dan manajemen pengguna.
         </p>
+
+        <a 
+          href="https://github.com/nurwhyusuci/monitoring_kesehatan_anak"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Project
+        </a>
       </div>
 
+
+      {/* JARINGAN MULTI GEDUNG */}
       <div className="project-card">
         <h3>Perancangan Jaringan Multi Gedung</h3>
         <p>
-          Implementasi 8 VLAN dan routing antar gedung
-          menggunakan metode RIP v2.
+          Perancangan topologi jaringan komputer multi gedung menggunakan
+          VLAN, Router-on-a-Stick, dan routing RIP v2 untuk komunikasi antar jaringan.
         </p>
+
+        <p></p>
       </div>
 
+
+      {/* UX RESEARCH */}
       <div className="project-card">
         <h3>UX Research Evaluatif</h3>
         <p>
-          Evaluasi usability menggunakan wawancara,
-          observasi, dan survei.
+          Penelitian UX menggunakan metode evaluatif yang meliputi wawancara,
+          observasi, dan survei untuk menganalisis pengalaman pengguna.
         </p>
+
+        <a 
+          href="https://www.figma.com/design/0BWOhY7U1mYLbds1syG743/Untitled?node-id=0-1&t=PH2Npj3TTHhItit8-1"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View Design
+        </a>
       </div>
 
     </section>

@@ -1,10 +1,29 @@
 function Contact() {
   return (
     <section id="contact" className="section contact">
-      <h2>Contact</h2>
-      <a href="#">Email</a>
+
+      <h2>Contact Me</h2>
+
       
-      <a href="#">GitHub</a>
+
+      <div className="contact-links">
+
+        <a 
+          href="mailto:2300016108@webmail.uad.ac.id"
+        >
+          📧 Email
+        </a>
+
+        <a 
+          href="https://github.com/AdriIhwanHidayah"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          🐙 GitHub
+        </a>
+
+      </div>
+
     </section>
   )
 }

@@ -26,7 +26,7 @@ function Hero() {
             </a>
 
             <a href="#contact" className="btn-outline">
-              Contact Me
+              Contact 
             </a>
 
           </div>
