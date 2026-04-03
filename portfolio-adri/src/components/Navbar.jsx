@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
 
-      <h1>PORTOFOLIO</h1>
+      <h1>Adri.Dev</h1>
 
       <div 
         className="menu-toggle"

@@ -15,8 +15,9 @@ function Hero() {
           </h1>
 
           <p>
-            Mahasiswa Sistem Informasi yang fokus pada pengembangan aplikasi,
-            UI/UX, dan jaringan komputer.
+            Mahasiswa Sistem Informasi yang fokus pada pengembangan aplikasi
+  menggunakan React, Node.js, dan database. Berpengalaman dalam
+  membangun sistem dari frontend hingga backend.
           </p>
 
           <div className="hero-buttons">

@@ -3,6 +3,7 @@ function Contact() {
     <section id="contact" className="section contact">
 
       <h2>Contact Me</h2>
+      <p>Feel free to contact me for collaboration or project discussion.</p>
 
       
 
@@ -13,6 +14,7 @@ function Contact() {
         >
           📧 Email
         </a>
+        
 
         <a 
           href="https://github.com/AdriIhwanHidayah"

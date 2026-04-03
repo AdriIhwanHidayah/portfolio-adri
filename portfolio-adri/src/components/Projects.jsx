@@ -11,6 +11,7 @@ function Projects() {
           Aplikasi buku tamu digital berbasis Flutter dengan penyimpanan data
           menggunakan Hive serta fitur admin untuk melihat riwayat kunjungan.
         </p>
+        <small>Tech: Flutter, Hive</small>
 
         <a 
           href="https://github.com/AdriIhwanHidayah/TamuQ"
@@ -29,6 +30,7 @@ function Projects() {
           Sistem informasi untuk memantau kesehatan anak yang mencakup
           pencatatan data vaksinasi, notifikasi otomatis, dan manajemen pengguna.
         </p>
+        <small>Tech: React, Node.js, MySQL</small>
 
         <a 
           href="https://github.com/nurwhyusuci/monitoring_kesehatan_anak"
@@ -59,6 +61,7 @@ function Projects() {
           Penelitian UX menggunakan metode evaluatif yang meliputi wawancara,
           observasi, dan survei untuk menganalisis pengalaman pengguna.
         </p>
+        <small>Tech: Figma, UX Research</small>
 
         <a 
           href="https://www.figma.com/design/0BWOhY7U1mYLbds1syG743/Untitled?node-id=0-1&t=PH2Npj3TTHhItit8-1"
